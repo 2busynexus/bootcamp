@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    
+    <h1>HTML Forms</h1>
+
+    <form action="">
+        <h2>Basic Input Form</h2>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName">
+        <br>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName">
+    </form>
+
+    <form action="conf.html">
+        <h2>Login form</h2>
+        <label for="user">Username</label>
+        <input type="text" id="user">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass">
+        <input type="submit" value="login">
+    </form>
+
+    <form>
+        <h2>Datalist form</h2>
+        <label for="colour-choice">Pick a color</label>
+        <input list="colours" id="colour-choice">
+        <datalist id="colours">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </datalist>
+    </form>
+
+    <form action="">
+        <h2>Fieldset form</h2>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob">
+        </fieldset>
+    </form>
+
+</body>
+</html>
